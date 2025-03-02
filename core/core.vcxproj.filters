@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{4757b92c-c103-4d04-9e79-3d49db46745c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars">
+      <UniqueIdentifier>{4df2aa37-6919-4f5f-8cf5-fdd2163b44c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars\str">
+      <UniqueIdentifier>{ca939520-1c4a-4d57-95f2-f8fce636d404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars\nums">
+      <UniqueIdentifier>{ef61e870-dfec-4d76-bb47-b1f436942ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars\nums\float">
+      <UniqueIdentifier>{7adbc817-df6f-4e3c-9458-de91898e1348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars\nums\int">
+      <UniqueIdentifier>{e074d062-e877-48af-b307-d80785c9b3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stack">
+      <UniqueIdentifier>{9d7a58eb-3998-4934-906a-c8aa4a345f96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="str.cpp">
+      <Filter>vars\str</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>vars</Filter>
+    </ClInclude>
+    <ClInclude Include="str.h">
+      <Filter>vars\str</Filter>
+    </ClInclude>
+    <ClInclude Include="float.h">
+      <Filter>vars\nums\float</Filter>
+    </ClInclude>
+    <ClInclude Include="int.h">
+      <Filter>vars\nums\int</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>stack</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
